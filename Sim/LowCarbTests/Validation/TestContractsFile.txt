@@ -1,0 +1,24 @@
+﻿// Expected format for a contract is:
+//
+// [Inputs] | [Expected Outputs]
+//
+// One contract per line.
+// Use // to ignore an entire line.
+
+// Whitespace is ignored.
+0 0 | 0
+
+// Only the first pipe is considered.  Values after a second pipe are ignored.
+0 1 | 0 | 1 0 1
+
+// Characters other than 0, 1 and the pipe symbol are ignored.
+120|0
+
+// Lines without pipes are ignored.
+10000110101
+
+// Tabs are considered whitespace.
+11	|	1
+
+// Empty input or output is valid (e.g. for const emitters).
+ | 1

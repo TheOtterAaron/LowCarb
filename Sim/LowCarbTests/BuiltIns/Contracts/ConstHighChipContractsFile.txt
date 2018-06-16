@@ -1,0 +1,4 @@
+// LowCarb.BuiltIns.ConstHighChip
+// 
+// |  Out
+   |  1

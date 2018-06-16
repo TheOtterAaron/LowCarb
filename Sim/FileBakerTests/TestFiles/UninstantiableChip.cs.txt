@@ -1,0 +1,28 @@
+﻿using LowCarb;
+using System.Collections.Generic;
+
+namespace FileBakerTests
+{
+    public class UninstantiableChip : IChip
+    {
+        public UninstantiableChip(string name)
+        {
+
+        }
+
+        public IList<Pin> GetInputPins()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IList<Pin> GetOutputPins()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Simulate()
+        {
+            throw new System.NotImplementedException();
+        }
+    }
+}

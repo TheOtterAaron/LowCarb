@@ -1,0 +1,5 @@
+// LowCarb.BuiltIns.NotChip
+// 
+// In  |  Out
+   0   |  1
+   1   |  0

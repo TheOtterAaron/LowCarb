@@ -1,0 +1,13 @@
+﻿using LowCarb;
+using System.Collections.Generic;
+
+namespace FileBakerTests
+{
+    public class NonInterfacedChip
+    {
+        public NonInterfacedChip()
+        {
+
+        }
+    }
+}
